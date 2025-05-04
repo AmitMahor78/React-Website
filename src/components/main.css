@@ -1,0 +1,43 @@
+@media  screen and  (max-width:40rem) {
+    .A{
+        flex-direction: column;
+
+    }
+    .h1{
+        font-size: large;
+    }
+    .images{
+        flex-direction: column;
+    }
+    /* .img1{
+        width:100vw;
+    } */
+    
+}
+#six {
+    justify-content: space-around;
+    display: flex;
+    width: 100%;
+    background-color: black;
+    color: white;
+
+}
+
+#six ul {
+    justify-content: center;
+
+}
+
+#six ul li {
+    list-style: none;
+    font-size: 12px;
+    color:white;
+    padding-bottom: 30px;
+}
+
+#six ul li:hover {
+    text-decoration: underline;
+}
+.img1{
+    border-radius: 20px;
+}
